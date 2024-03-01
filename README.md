@@ -513,6 +513,10 @@ Implementation using C or pyhton code
 
 Testing algorithm with different key values. 
 
+
+
+
+
 ## PROGRAM:
 ```
 #include <stdio.h>
@@ -567,8 +571,14 @@ int main() {
     return 0;
 }
 ```
+
+
+
 ## OUTPUT:
 ![vignere](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/90d39f90-8dd0-4a59-bf65-038a72143725)
+
+
+
 
 ## RESULT:
 The program is executed successfully
