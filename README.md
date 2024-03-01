@@ -447,7 +447,6 @@ int main() {
     }
     
     printf("Encoded message : %s\n", enc);
-    
     for (int i = 0; i < strlen(enc); i += 3) {
         char a = enc[i];
         char b = enc[i + 1];
@@ -456,13 +455,9 @@ int main() {
         decode(a, b, c, ret);
         strcat(dec, ret);
     }
-    
     printf("Decoded message : %s\n", dec);
-    
     return 0;
 }
-
-
 
 
 
@@ -476,9 +471,6 @@ int main() {
 
 ## OUTPUT:
 ![hill cipher](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/42dda408-a46d-41b3-a169-66b7f52fe862)
-
-
-
 
 
 
