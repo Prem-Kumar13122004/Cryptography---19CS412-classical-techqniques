@@ -496,21 +496,8 @@ The program is executed successfully
 Vigenere Cipher using with different key values
 
 
-
-
-
-
-
 # AIM:
-
-
-
 To develop a simple C program to implement Vigenere Cipher.
-
-
-
-
-
 
 ## DESIGN STEPS:
 
@@ -529,11 +516,6 @@ Implementation using C or pyhton code
 ### Step 3:
 
 Testing algorithm with different key values. 
-
-
-
-
-
 
 ## PROGRAM:
 
