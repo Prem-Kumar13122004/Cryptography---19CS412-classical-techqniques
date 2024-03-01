@@ -23,6 +23,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+```
 #include <stdio.h>
 #include <stdlib.h>
 // Function to perform Caesar Cipher encryption
@@ -60,6 +61,7 @@ int main() {
  printf("Decrypted Message: %s", message);
  return 0;
 }
+```
 ## OUTPUT:
 ![caesar output](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/70dd6627-50c8-477c-a88e-9e80b253324f)
 
@@ -90,7 +92,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
- 
+``` 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -237,7 +239,7 @@ encryptByPlayfairCipher(str, key);
 printf("Cipher text: %s\n", str);
 return 0;
 }
-
+```
 ## OUTPUT:
 ![playfair](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/2ef01a4c-d52b-48f6-b9be-0740b1899060)
 
@@ -269,6 +271,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+```
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>  // Include the necessary header for toupper()
@@ -359,7 +362,7 @@ int main() {
     
     return 0;
 }
-
+```
 ## OUTPUT:
 ![hill cipher](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/42dda408-a46d-41b3-a169-66b7f52fe862)
 
@@ -390,6 +393,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+```
 #include <stdio.h>
 #include <string.h>
 
@@ -441,7 +445,7 @@ int main() {
 
     return 0;
 }
-
+```
 ## OUTPUT:
 ![vignere](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/90d39f90-8dd0-4a59-bf65-038a72143725)
 
@@ -472,6 +476,7 @@ Implementation using C or pyhton code
 Testing algorithm with different key values. 
 
 ## PROGRAM:
+```
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -524,7 +529,7 @@ for(j=0;j<len;j++)
 }
 printf("\n");
 }
-
+```
 ## OUTPUT:
 ![railfence output](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/feb440a9-c232-40f4-b8fa-99ed6b4e5b42)
 
