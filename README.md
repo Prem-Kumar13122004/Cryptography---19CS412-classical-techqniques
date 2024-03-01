@@ -5,13 +5,9 @@
 Caeser Cipher using with different key values
 
 
-
-
 # AIM:
 
 To develop a simple C program to implement Caeser Cipher.
-
-
 
 
 
@@ -34,6 +30,8 @@ Testing algorithm with different key values.
 
 
 ## PROGRAM:
+
+
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -73,6 +71,8 @@ int main() {
  return 0;
 }
 ```
+
+
 
 
 
@@ -156,6 +156,10 @@ Implementation using C or pyhton code
 ### Step 3:
 
 Testing algorithm with different key values. 
+
+
+
+
 
 ## PROGRAM:
 ``` 
@@ -306,6 +310,9 @@ printf("Cipher text: %s\n", str);
 return 0;
 }
 ```
+
+
+
 ## OUTPUT:
 ![playfair](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/2ef01a4c-d52b-48f6-b9be-0740b1899060)
 
