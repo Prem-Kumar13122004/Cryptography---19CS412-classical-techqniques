@@ -330,10 +330,11 @@ The program is executed successfully
 Hill Cipher using with different key values
 
 
-
 # AIM:
 
 To develop a simple C program to implement Hill Cipher.
+
+
 
 ## DESIGN STEPS:
 
@@ -348,6 +349,10 @@ Implementation using C or pyhton code
 ### Step 3:
 
 Testing algorithm with different key values. 
+
+
+
+
 
 ## PROGRAM:
 ```
@@ -442,8 +447,17 @@ int main() {
     return 0;
 }
 ```
+
+
+
+
 ## OUTPUT:
 ![hill cipher](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/42dda408-a46d-41b3-a169-66b7f52fe862)
+
+
+
+
+
 
 ## RESULT:
 The program is executed successfully
