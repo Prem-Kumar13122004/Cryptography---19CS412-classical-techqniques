@@ -529,7 +529,8 @@ void vigenereEncrypt(char *text, const char *key) {
     int textLen = strlen(text);
     int keyLen = strlen(key);
 
-    for (int i = 0; i < textLen; i++) {
+    for (int i = 0; i < textLen; i++)
+ {
         char c = text[i];
         if (c >= 'A' && c <= 'Z') {
             // Encrypt uppercase letters
@@ -541,10 +542,12 @@ void vigenereEncrypt(char *text, const char *key) {
     }
 }
 
+
 // Function to perform Vigenere decryption
 void vigenereDecrypt(char *text, const char *key) {
     int textLen = strlen(text);
     int keyLen = strlen(key);
+
 
     for (int i = 0; i < textLen; i++) {
         char c = text[i];
@@ -558,19 +561,23 @@ void vigenereDecrypt(char *text, const char *key) {
     }
 }
 
-int main() {
+int main()
+ {
     const char *key = "KEY";  // Replace with your desired key
     char message[] = "This is a secret message.";  // Replace with your message
+
 
     // Encrypt the message
     vigenereEncrypt(message, key);
     printf("Encrypted Message: %s\n", message);
+
 
     // Decrypt the message back to the original
     vigenereDecrypt(message, key);
     printf("Decrypted Message: %s\n", message);
 
     return 0;
+
 }
 ```
 
