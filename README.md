@@ -383,6 +383,7 @@ void encode(char a, char b, char c, char ret[4]) {
     ret[3] = '\0';
 }
 
+
 void decode(char a, char b, char c, char ret[4]) {
     int x, y, z;
     int posa = (int) a - 65;
@@ -399,12 +400,14 @@ void decode(char a, char b, char c, char ret[4]) {
     ret[3] = '\0';
 }
 
+
 int main() {
     char msg[1000];
     char enc[1000] = "";
     char dec[1000] = "";
     int n;
-    
+
+ 
     strcpy(msg, "SecurityLaboratory");
     printf("Simulation of Hill Cipher\n");
     printf("Input message : %s\n", msg);
@@ -412,7 +415,8 @@ int main() {
     for (int i = 0; i < strlen(msg); i++) {
         msg[i] = toupper(msg[i]);
     }
-    
+
+  
     // Remove spaces
     n = strlen(msg) % 3;
     
@@ -424,7 +428,8 @@ int main() {
     }
     
     printf("Padded message : %s\n", msg);
-    
+
+  
     for (int i = 0; i < strlen(msg); i += 3) {
         char a = msg[i];
         char b = msg[i + 1];
