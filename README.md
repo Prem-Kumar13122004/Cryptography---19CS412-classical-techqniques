@@ -32,6 +32,8 @@ Testing algorithm with different key values.
 ## PROGRAM:
 
 
+
+
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -81,6 +83,8 @@ int main() {
 
 ## OUTPUT:
 ![caesar output](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/70dd6627-50c8-477c-a88e-9e80b253324f)
+
+
 
 
 
