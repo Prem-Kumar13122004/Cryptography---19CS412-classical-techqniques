@@ -4,9 +4,16 @@
 # Caeser Cipher
 Caeser Cipher using with different key values
 
+
+
+
 # AIM:
 
 To develop a simple C program to implement Caeser Cipher.
+
+
+
+
 
 ## DESIGN STEPS:
 
@@ -21,6 +28,10 @@ Implementation using C or pyhton code
 ### Step 3:
 
 Testing algorithm with different key values. 
+
+
+
+
 
 ## PROGRAM:
 ```
@@ -62,8 +73,17 @@ int main() {
  return 0;
 }
 ```
+
+
+
+
+
+
 ## OUTPUT:
 ![caesar output](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/70dd6627-50c8-477c-a88e-9e80b253324f)
+
+
+
 
 ## RESULT:
 The program is executed successfully
