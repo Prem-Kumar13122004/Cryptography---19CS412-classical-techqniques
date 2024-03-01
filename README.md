@@ -484,9 +484,20 @@ The program is executed successfully
 # Vigenere Cipher
 Vigenere Cipher using with different key values
 
+
+
+
+
+
+
 # AIM:
 
 To develop a simple C program to implement Vigenere Cipher.
+
+
+
+
+
 
 ## DESIGN STEPS:
 
