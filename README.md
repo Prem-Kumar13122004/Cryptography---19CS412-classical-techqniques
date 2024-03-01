@@ -45,10 +45,14 @@ void caesarEncrypt(char *text, int key) {
  if (c >= 'A' && c <= 'Z') {
  text[i] = ((c - 'A' + key) % 26 + 26) % 26 + 'A';
  }
+
  // Check if the character is a lowercase letter
+
  else if (c >= 'a' && c <= 'z') {
  text[i] = ((c - 'a' + key) % 26 + 26) % 26 + 'a';
  }
+
+
  // Ignore non-alphabetic characters
  }
 }
