@@ -331,8 +331,6 @@ Hill Cipher using with different key values
 
 To develop a simple C program to implement Hill Cipher.
 
-
-
 ## DESIGN STEPS:
 
 ### Step 1:
@@ -440,8 +438,6 @@ int main() {
     return 0;
 }
 ```
-
-
 ## OUTPUT:
 ![hill cipher](https://github.com/Prem-Kumar13122004/Cryptography---19CS412-classical-techqniques/assets/119291590/42dda408-a46d-41b3-a169-66b7f52fe862)
 
